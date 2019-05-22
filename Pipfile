@@ -11,6 +11,9 @@ pytest-django = "*"
 
 [packages]
 django = "*"
+graphene-django = "*"
+django-graphiql = "*"
+mixer = "*"
 
 [requires]
 python_version = "3.7"
