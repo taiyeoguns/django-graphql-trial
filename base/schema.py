@@ -7,6 +7,12 @@ from .models import Department
 class DepartmentType(DjangoObjectType):
     class Meta:
         model = Department
+        exclude_fields = "uuid"
+
+    id = graphene.UUID()
+
+    def resolve_id(self, info, **kwargs):
+        return self.uuid
 
 
 class Query(graphene.ObjectType):

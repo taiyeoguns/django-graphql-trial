@@ -82,7 +82,7 @@ In Graphiql, enter the following sample request:
 ```graphql
 query {
   departments {
-    uuid
+    id
     name
     createdAt
   }
