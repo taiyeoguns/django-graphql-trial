@@ -79,7 +79,7 @@ Open a browser and navigate to `http://localhost:8000/graphql`
 
 In Graphiql, enter the following sample request:
 
-```
+```graphql
 query {
   departments {
     uuid
@@ -100,5 +100,7 @@ pytest -v
 ### Further Information
 
 - [https://medium.com/@alhajee2009/graphql-with-django-a-tutorial-that-works-2812be163a26](https://medium.com/@alhajee2009/graphql-with-django-a-tutorial-that-works-2812be163a26)
+- [https://graphql.org/learn/](https://graphql.org/learn/)
+- [https://www.howtographql.com//](https://www.howtographql.com//)
 - [https://gearheart.io/blog/how-to-use-graphql-with-django-with-example/](https://gearheart.io/blog/how-to-use-graphql-with-django-with-example/)
 - [https://www.howtographql.com/graphql-python/2-queries/](https://www.howtographql.com/graphql-python/2-queries/)
