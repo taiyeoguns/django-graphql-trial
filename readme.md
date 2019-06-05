@@ -77,13 +77,28 @@ Open a browser and navigate to `http://localhost:8000/graphql`
 
 ### Sample Request
 
-In Graphiql, enter the following sample request:
+In Graphiql, enter the following sample requests:
 
 ```graphql
 query {
   departments {
     id
     name
+    createdAt
+  }
+}
+```
+
+```graphql
+query {
+  employees {
+    id
+    firstName
+    lastName
+    department {
+      id
+      name
+    }
     createdAt
   }
 }
