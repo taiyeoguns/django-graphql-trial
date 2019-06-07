@@ -8,6 +8,7 @@ flake8 = "*"
 black = "==19.3b0"
 pytest = "*"
 pytest-django = "*"
+pytest-cov = "*"
 
 [packages]
 django = "*"
