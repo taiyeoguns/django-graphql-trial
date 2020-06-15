@@ -63,7 +63,7 @@ class Command(BaseCommand):
         # seed shifts
         self.stdout.write("Seeding Employees")
 
-        for i in range(options["num"]):
+        for _ in range(options["num"]):
 
             # seed users
             _user = self._get_user()
